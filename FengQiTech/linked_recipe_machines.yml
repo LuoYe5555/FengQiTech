@@ -1,0 +1,690 @@
+HDZWZZJSJ: #核电作物种植加速机
+  item_group: FQ_wp
+  item:
+    name: "&2核电作物&7种植加速机"
+    material_type: mc
+    material: FLETCHING_TABLE
+    lore:
+     - "&7起到加速生产的作用"
+     - "&7繁杂的合成配方也对得起产物的珍贵性"
+     - "&b使用&6下界冰冷却剂"
+     - ""
+     - "&8⇨ &e⚡ &71280000 J 可存储"
+     - "&8⇨ &e⚡ &7500 J/s"
+     - "&8⇨ &7速度 2x"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_JQHX
+    2:
+      material_type: slimefun
+      material: FQ_JQHX
+    3:
+      material_type: slimefun
+      material: FQ_JQHX
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+    5:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+    7:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    8:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    9:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+  capacity: 1280000
+  input:  [10,19,28,37,16,25,34,43]
+  output: [13]
+  energyPerCraft: 250
+  speed: 2
+  hideAllRecipes: true
+  recipes:
+    1:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    2:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    3:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 34
+    4:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    5:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    6:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    7:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 34
+    8:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    9:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    10:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    11:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 34
+    12:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    13:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    14:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    15:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 34
+    16:
+      seconds: 1200
+      input:
+        1:
+          material_type: slimefun
+          material: URANIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 13
+    17:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    18:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    19:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 34
+    20:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    21:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    22:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    23:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 34
+    24:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 19
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    25:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    26:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    27:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 34
+    28:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 28
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    29:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    30:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 25
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13
+    31:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 16
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 34
+    32:
+      seconds: 600
+      input:
+        1:
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+          slot: 37
+        2:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 4
+          slot: 43
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+          slot: 13

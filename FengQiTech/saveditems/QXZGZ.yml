@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4440
+  id: minecraft:paper
+  count: 1
+  components:
+    minecraft:lore: '["§e获取枪械的前提"]'
+    minecraft:unbreakable: '{}'
+    minecraft:custom_name: '"§6枪械资格证"'
+  schema_version: 1

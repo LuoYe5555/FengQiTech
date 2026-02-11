@@ -1,0 +1,51 @@
+HJGSFDJ: #黑金刚石发电机
+  item_group: FQ_wp
+  item:
+    name: "&b&l黑金刚石&7发电机"
+    material: GILDED_BLACKSTONE
+    lore:
+     - "&7放入&b&l黑金刚石&7以发电"
+     - ""
+     - "&8⇨ &e⚡ &7180000 J 可存储"
+     - "&8⇨ &e⚡ &71800 J/s"
+  capacity: 1800000
+  production: 900
+  input: [11]
+  output: [15]
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CARBONADO
+    2:
+      material_type: slimefun
+      material: COAL_GENERATOR_2
+    3:
+      material_type: slimefun
+      material: CARBONADO
+    4:
+      material_type: slimefun
+      material: CARBON
+    5:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER_2
+    6:
+      material_type: slimefun
+      material: CARBON
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  fuels:
+    example_fuel:
+      item:
+        material_type: slimefun
+        material: CARBONADO
+      seconds: 100
+      output:
+        material: COAL

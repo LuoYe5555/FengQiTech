@@ -1,0 +1,804 @@
+GZHY: #硅转换仪
+  item_group: FQ_wp
+  item:
+    name: "&6硅&7转换仪"
+    material: BEEHIVE
+    lore:
+     - "&7将灵魂沙直接转换为&6硅"
+     - "&7省去淘金.合成.冶炼的步骤"
+     - ""
+     - "&8⇨ &e⚡ &7128 J 可存储"
+     - "&8⇨ &e⚡ &772 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    2:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    3:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    4:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    5:
+      material_type: slimefun
+      material: VANILLA_AUTO_CRAFTER
+    6:
+      material_type: slimefun
+      material: ELECTRIC_SMELTERY_2
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 128
+  input:  [11]
+  output: [15]
+  energyPerCraft: 36
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 1
+      input:
+        1:
+          material: SOUL_SAND
+          amount: 4
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: SILICON
+          amount: 1
+
+ZFJI: #制粉机
+  item_group: FQ_wp
+  item:
+    name: "&8制粉机(I)"
+    material: WAXED_OXIDIZED_COPPER_BULB
+    lore:
+     - "&7将圆石转化为粉"
+     - "&7集磨石.淘金.筛矿于一体"
+     - ""
+     - "&8⇨ &e⚡ &7128 J 可存储"
+     - "&8⇨ &e⚡ &728 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER
+    2:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN
+    3:
+      material_type: slimefun
+      material: ELECTRIC_DUST_WASHER
+    4:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    5:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    6:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 128
+  input:  [0,1,2,9,10,11,18,19,20]
+  output: [6,7,8,15,16,17,24,25,26]
+  energyPerCraft: 14
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      chooseOne: true
+      seconds: 4
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+        2:
+          chance: 100
+          material_type: slimefun
+          material: SILVER_DUST
+        3:
+          chance: 100
+          material_type: slimefun
+          material: LEAD_DUST
+        4:
+          chance: 100
+          material_type: slimefun
+          material: ALUMINUM_DUST
+        5:
+          chance: 100
+          material_type: slimefun
+          material: ZINC_DUST
+        6:
+          chance: 100
+          material_type: slimefun
+          material: IRON_DUST
+        7:
+          chance: 100
+          material_type: slimefun
+          material: GOLD_DUST
+        8:
+          chance: 100
+          material_type: slimefun
+          material: COPPER_DUST
+        9:
+          chance: 100
+          material_type: slimefun
+          material: TIN_DUST
+
+ZFJII: #制粉机
+  item_group: FQ_wp
+  item:
+    name: "&8制粉机(II)"
+    material: WAXED_OXIDIZED_COPPER_BULB
+    lore:
+     - "&7将圆石转化为粉"
+     - "&7集磨石.淘金.筛矿于一体"
+     - ""
+     - "&8⇨ &e⚡ &7128 J 可存储"
+     - "&8⇨ &e⚡ &784 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_ZFJI
+    2:
+      material_type: slimefun
+      material: FQ_ZFJI
+    3:
+      material_type: slimefun
+      material: FQ_ZFJI
+    4:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    5:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    6:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 128
+  input:  [0,1,2,9,10,11,18,19,20]
+  output: [6,7,8,15,16,17,24,25,26]
+  energyPerCraft: 42
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      chooseOne: true
+      seconds: 0
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+        2:
+          chance: 100
+          material_type: slimefun
+          material: SILVER_DUST
+        3:
+          chance: 100
+          material_type: slimefun
+          material: LEAD_DUST
+        4:
+          chance: 100
+          material_type: slimefun
+          material: ALUMINUM_DUST
+        5:
+          chance: 100
+          material_type: slimefun
+          material: ZINC_DUST
+        6:
+          chance: 100
+          material_type: slimefun
+          material: IRON_DUST
+        7:
+          chance: 100
+          material_type: slimefun
+          material: GOLD_DUST
+        8:
+          chance: 100
+          material_type: slimefun
+          material: COPPER_DUST
+        9:
+          chance: 100
+          material_type: slimefun
+          material: TIN_DUST
+          
+TKYTJ: #碳块一体机
+  item_group: FQ_wp
+  item:
+    name: "&4碳块&7一体机"
+    material: DIAMOND_BLOCK
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &71024 J 可存储"
+     - "&8⇨ &e⚡ &7560 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    2:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    3:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    4:
+      material_type: slimefun
+      material: ENHANCED_AUTO_CRAFTER
+    5:
+      material_type: slimefun
+      material: TRASH_CAN_BLOCK
+    6:
+      material_type: slimefun
+      material: CARBON_CHUNK
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 1024
+  input:  [10,11]
+  output: [15,16]
+  energyPerCraft: 280
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 8
+      input:
+        1:
+          material: GRAVEL
+          amount: 4
+        2:
+          material_type: slimefun
+          material: CARBON
+          amount: 32
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: CARBON_CHUNK
+          amount: 1
+SKYTJ: #石块一体机
+  item_group: FQ_wp
+  item:
+    name: "&6石块&7一体机"
+    material: GRAVEL
+    lore:
+     - "&7泥土不够了.喵?"
+     - "&7该机器用圆石替代泥土"
+     - ""
+     - "&8⇨ &e⚡ &71024 J 可存储"
+     - "&8⇨ &e⚡ &7194 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+    2:
+      material_type: slimefun
+      material: ELECTRIC_GOLD_PAN_3
+    3:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+    4:
+      material_type: slimefun
+      material: FQ_JQHX
+    5:
+      material_type: slimefun
+      material: TRASH_CAN_BLOCK
+    6:
+      material_type: slimefun
+      material: FQ_JQHX
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 1024
+  input:  [11]
+  output: [15]
+  energyPerCraft: 97
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 0
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: STONE_CHUNK
+          amount: 1
+
+XJYZHYI: #下界岩转换仪I
+  item_group: FQ_wp
+  item:
+    name: "&f下界岩&7转换仪I"
+    material: NETHERRACK
+    lore:
+     - "&7自动将石头转换为下界岩"
+     - "&7耗电却省力"
+     - ""
+     - "&8⇨ &e⚡ &764 J 可存储"
+     - "&8⇨ &e⚡ &748 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_INGOT
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+    3:
+      material_type: slimefun
+      material: STEEL_INGOT
+    4:
+      material_type: slimefun
+      material: STEEL_INGOT
+    5:
+      material_type: slimefun
+      material: COMPOSTER
+    6:
+      material_type: slimefun
+      material: STEEL_INGOT
+    7:
+      material_type: slimefun
+      material: STEEL_INGOT
+    8:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+    9:
+      material_type: slimefun
+      material: STEEL_INGOT
+  capacity: 64
+  input:  [11]
+  output: [15]
+  energyPerCraft: 24
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 15
+      input:
+        1:
+          material: STONE
+          amount: 4
+      output:
+        1:
+          chance: 100
+          material: NETHERRACK
+          amount: 1
+
+JCKWZHY: #基础矿物转换仪
+  item_group: FQ_wp
+  item:
+    name: "&b基础矿物转换仪"
+    material: GILDED_BLACKSTONE
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &7128 J 可存储"
+     - "&8⇨ &e⚡ &764 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_CHJSD
+    2:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+    3:
+      material_type: slimefun
+      material: FQ_CHJSD
+    4:
+      material: GOLDEN_PICKAXE
+    5:
+      material_type: slimefun
+      material: GEO_MINER
+    6:
+      material: GOLDEN_PICKAXE
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 128
+  input:  [0,1,2,9,10,11,18,19,20]
+  output: [6,7,8,15,16,17,24,25,26]
+  energyPerCraft: 32
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      chooseOne: true
+      seconds: 8
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material: QUARTZ
+          amount: 6
+        2:
+          chance: 100
+          material: COAL
+          amount: 16
+        3:
+          chance: 100
+          material: RAW_IRON
+          amount: 8
+        4:
+          chance: 100
+          material: RAW_COPPER
+          amount: 12
+        5:
+          chance: 100
+          material: EMERALD
+          amount: 4
+        6:
+          chance: 100
+          material: LAPIS_LAZULI
+          amount: 6
+        7:
+          chance: 100
+          material: DIAMOND
+          amount: 2
+        8:
+          chance: 100
+          material: AMETHYST_SHARD
+          amount: 8
+        9:
+          chance: 100
+          material: RAW_GOLD
+          amount: 6
+    2:
+      seconds: 12
+      input:
+        1:
+          material: NETHERRACK
+          amount: 64
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: NETHER_ICE
+          amount: 1
+    3:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: REINFORCED_ALLOY_INGOT
+          amount: 4
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: BUCKET_OF_OIL
+    4:
+      seconds: 1
+      noConsume: true
+      hide: true
+      input:
+        1:
+          material_type: slimefun
+          material: FQ_QXZGZ
+          amount: 4
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: FQ_M14
+        2:
+          chance: 100
+          material_type: slimefun
+          material: FQ_M62
+SSYTJ: #燧石一体机
+  item_group: FQ_wp
+  item:
+    name: "&6燧石&7一体机"
+    material: GRAVEL
+    lore:
+     - "&7固定洗矿产出"
+     - ""
+     - "&8⇨ &e⚡ &71024 J 可存储"
+     - "&8⇨ &e⚡ &7194 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: GOLD_PAN
+    4:
+      material: FLINT
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    6:
+      material: FLINT
+    7:
+      material_type: slimefun
+      material: TIN_INGOT
+    8:
+      material_type: slimefun
+      material: TIN_INGOT
+    9:
+      material_type: slimefun
+      material: TIN_INGOT
+  capacity: 1024
+  input:  [11]
+  output: [15]
+  energyPerCraft: 194
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 3
+      input:
+        1:
+          material: GRAVEL
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material: FLINT
+          amount: 1
+          
+DXZFJ: #定向制粉机
+  item_group: FQ_wp
+  item:
+    name: "&8定向制粉机"
+    material: WAXED_OXIDIZED_COPPER_BULB
+    lore:
+     - "&7在催化剂的作用下驱动"
+     - "&7定向产出矿粉"
+     - ""
+     - "&8⇨ &e⚡ &71024 J 可存储"
+     - "&8⇨ &e⚡ &71000 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_ZFJII
+    2:
+      material_type: slimefun
+      material: FQ_ZFJII
+    3:
+      material_type: slimefun
+      material: FQ_ZFJII
+    4:
+      material_type: slimefun
+      material: FQ_ZFJII
+    5:
+      material_type: slimefun
+      material: FQ_ZFJII
+    6:
+      material_type: slimefun
+      material: FQ_ZFJII
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+  capacity: 1024
+  input:  [10,11]
+  output: [16]
+  energyPerCraft: 500
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 16
+    2:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 16
+    3:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 16
+    4:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 16
+    5:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 16
+    6:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 16
+    7:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 16
+    8:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 16
+    9:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 16
+          

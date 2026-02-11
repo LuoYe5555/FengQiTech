@@ -1,0 +1,404 @@
+FQ_GZHY:
+  title: "&6硅&7转换仪"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_ZFJI:
+  title: "&7制粉机(I)"
+  slots:
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+     
+FQ_ZFJII:
+  title: "&7制粉机(II)"
+  slots:
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_ZFJIII:
+  title: "&7制粉机(III)"
+  slots:
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_TKYTJ:
+  title: "&4碳块&7一体机"
+  slots:
+    0-9:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    17-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+     
+FQ_SKYTJ:
+  title: "&6石块&7一体机"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_XJYZHYI:
+  title: "&f下界岩&7转换仪I"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_XJYZHYII:
+  title: "&f下界岩&7转换仪II"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+     
+FQ_XJYZHYIII:
+  title: "&f下界岩&7转换仪III"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_XJYZHYIV:
+  title: "&f下界岩&7转换仪IV"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+
+FQ_XJYZHYV:
+  title: "&f下界岩&7转换仪V"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+FQ_JCKWZHY:
+  title: "&b基础矿物转换仪"
+  slots:
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    
+FQ_SSYTJ:
+  title: "&6燧石&7一体机"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+FQ_HJGSFDJ:
+  title: "&b&l黑金刚石&7发电机"
+  slots:
+    0-10:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE 
+    16-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+     
+FQ_DXZFJ:
+  title: "&7制粉机(III)"
+  slots:
+    0-3:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    4-8:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    9:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    14:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    15:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    17:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    18-21:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    22-26:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+     
+FQ_HDZWZZJSJ:
+  title: "&2核电作物&7种植加速机"
+  slots:
+    0-2:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    3:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    4:
+     name: "&a"
+     material: TRIDENT
+     progressbar: true
+    5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    6-8:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    9:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    11:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    15:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    17:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    18:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    20:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    24:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    26:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    27:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    29:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    30-32:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    33:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    35:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    36:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    38:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    39-41:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    42:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    44:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    45-47:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    48-50:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    51-53:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE

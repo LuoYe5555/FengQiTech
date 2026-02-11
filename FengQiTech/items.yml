@@ -1,0 +1,440 @@
+lyen:
+  lateInit: false
+  item_group: FQ_gx
+  placeable: false
+  item:
+    name: "&blyen"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/1bf27f944aac9ea96d9feee47d9f293370f58e5f5342d0a801cbea3ec23c2b49
+    lore:
+     - "&7&o作者"
+     - ""
+
+Dying:
+  lateInit: false
+  item_group: FQ_gx
+  placeable: false
+  item:
+    name: "&6Dying"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&7&o审核员"
+     - ""
+     
+XF:
+  lateInit: false
+  item_group: FQ_gx
+  placeable: false
+  item:
+    name: "&f晓帆"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&7&o审核员"
+     - ""
+
+FD: #风锭
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&b风&e锭"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/3c76df4c912d455db47d7628dd21de70d51c55edcafa36278ee8445f62db622f
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material: ANDESITE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+    3:
+      material: ANDESITE
+      amount: 1
+    4: 
+      material: FEATHER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    6:
+      material: FEATHER
+      amount: 1
+    7:
+      material: ANDESITE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+    9:
+      material: ANDESITE
+      amount: 1
+      
+JQHX: #机器核心
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&b机器&6核心"
+    lore:
+     - "&7机器组件"
+    material: LIGHT_GRAY_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HARDENED_GLASS
+    2:
+      material_type: slimefun
+      material: HARDENED_GLASS
+    3:
+      material_type: slimefun
+      material: HARDENED_GLASS
+    4: 
+      material_type: slimefun
+      material: ENERGY_CONNECTOR
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    6:
+      material_type: slimefun
+      material: ENERGY_CONNECTOR
+    7:
+      material_type: slimefun
+      material: HARDENED_GLASS
+    8:
+      material_type: slimefun
+      material: HARDENED_GLASS
+    9:
+      material_type: slimefun
+      material: HARDENED_GLASS
+      
+CHJSD: #磁化金属锭
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&4磁化金属锭"
+    material: NETHER_BRICK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    2:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    3:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    4:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    5:
+      material_type: slimefun
+      material: MAGNET
+    6:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    7:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    8:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+    9:
+      material_type: slimefun
+      material: HARDENED_METAL_INGOT
+      
+JXDLB: #机械电路版
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&e机械电路板"
+    lore:
+     - "&7机器组件"
+    material: GOLD_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COPPER_WIRE
+    2:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+    3:
+      material_type: slimefun
+      material: COPPER_WIRE
+    4:
+      material_type: slimefun
+      material: COPPER_WIRE
+    5:
+      material_type: slimefun
+      material: ENERGY_CONNECTOR
+    6:
+      material_type: slimefun
+      material: COPPER_WIRE
+    7:
+      material_type: slimefun
+      material: COPPER_WIRE
+    8:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+    9:
+      material_type: slimefun
+      material: COPPER_WIRE
+      
+JXDLJH: #机械电路集合
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&f机械电路集合"
+    lore:
+     - "&7机器组件"
+    material: IRON_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+    2:
+      material_type: slimefun
+      material: FQ_JXDLB
+    3:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+    4:
+      material_type: slimefun
+      material: FQ_JXDLB
+    5:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+    6:
+      material_type: slimefun
+      material: FQ_JXDLB
+    7:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+    8:
+      material_type: slimefun
+      material: FQ_JXDLB
+    9:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      
+GFDCJH: #光伏电池集合
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&b光伏电池集合"
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    2:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    3:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    4:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    6:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    7:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    8:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    9:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      
+DDMDJH: #电动马达集合
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&c电动马达集合"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/d3b5001a67007a93ade6659175e9054a92976b087fc629f042bcd57e7757646a
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    2:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    4:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    7:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    8:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    9:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      
+RZX: #人造线
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&8人造线"
+    material: STRING
+    lore:
+     - "&7由木头制成"
+     - "&7可以代替线"
+  vanilla: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    5:
+      material: STICK
+
+20251130:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72025/11/30"
+     - "&7&o1.更新下界岩转换器"
+     - "&7&o2.修正太阳能系列发电功率"
+
+20251220:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72025/12/20"
+     - "&7&o1.更新定向制粉机"
+     - "&7&o2.更新黑金刚石发电机"
+
+20260102:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72026/01/02"
+     - "&7&o祝各位2026新年快乐!"
+     - ""
+     - "&7&o1.更新核电作物种植加速机"
+
+20260103:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72026/01/03"
+     - "&7&o1.更改 &2核电作物&7种植加速机 &7&o错误介绍"
+     - "&7&o2.优化 &2核电作物&7种植加速机 &7&o机器菜单"
+     - "&7&o3.删除 下界岩转换器II-IV"
+     - "&7&o4.优化 下界岩转换器 合成配方"
+     - "&7&o5.更新 建材包I"
+
+ZCBI: #建材包I
+  lateInit: false
+  item_group: FQ_cl
+  placeable: true
+  item:
+    name: "&8建材包I"
+    material_type: saveditem
+    material: ZCBI
+    lore:
+     - "&7方便建筑师"
+  
+20260124:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72026/01/24"
+     - "&7&o1.更改 &2核电作物&7种植加速机 &7&o产物时间"
+     - "&7&o2.优化 &6燧石&7一体机 &7&o合成配方"
+     - "&7&o3.将 &6全部头颅 &7改为 &6方块材质"
+
+20260209:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    lore:
+     - "&72026/02/09"
+     - "&7&o1.加入对应机器的lore(简介)"
+     - "&7&o2.优化 &7下界岩转换仪 &7&o合成配方"
+
+M14: #M14
+  lateInit: false
+  item_group: FQ_qx
+  placeable: true
+  item:
+    name: "&aM14"
+    material_type: saveditem
+    material: M14
+  
+M62: #M62
+  lateInit: false
+  item_group: FQ_dy
+  placeable: true
+  item:
+    name: "&e[7.62*51]M62"
+    material_type: saveditem
+    material: M62
+  
+QXZGZ: #枪械资格证
+  lateInit: true
+  item_group: FQ_cl
+  hidden: true
+  placeable: false
+  item:
+    name: "&6枪械资格证"
+    material: PAPER
+    lore:
+        - "&e获取枪械的前提"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    5:
+      material: NETHER_STAR

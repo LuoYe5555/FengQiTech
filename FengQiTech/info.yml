@@ -1,0 +1,18 @@
+id: FengQi_Tech
+name: "风起科技"
+depends: []
+pluginDepends: []
+version: "FORMAL"
+description: ""
+authors: ["lyen"]
+repo: ""
+idPattern: FQ_%0
+loadStartTexts:
+- "============"
+- "风起科技加载中"
+- "============"
+enabledTexts:
+- "============="
+- "风起科技加载成功"
+- "欢迎使用"
+- "============="

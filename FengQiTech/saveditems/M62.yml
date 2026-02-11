@@ -1,0 +1,8 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4440
+  id: minecraft:arrow
+  count: 1
+  components:
+    minecraft:custom_name: '"§e[7.62*51]M62"'
+  schema_version: 1

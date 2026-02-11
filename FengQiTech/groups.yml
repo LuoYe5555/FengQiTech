@@ -1,0 +1,52 @@
+FQTECH:
+  type: nested
+  item:
+    name: "&ki&b风起&7科技&ki"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
+    
+FQ_gx:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&9贡献"
+    material: NETHER_STAR
+
+FQ_sm:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&7更新说明"
+    material: PAPER
+
+FQ_cl:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&b风起&7基础材料"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/4e159dab94b55e61b86a3f6fe7f6a4c7d937fe5aa9731293e314747c8f51019d
+
+FQ_wp:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&e风起&7物品"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/b9dce59ba72f84736e1ea9c3b43eb1aadc497b2904a1cda08972692dc1b4ca75
+    
+FQ_qx:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&e风起&7枪械"
+    material_type: material
+    material: CROSSBOW
+
+FQ_dy:
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&e风起&7弹药展示"
+    material_type: material
+    material: ARROW
