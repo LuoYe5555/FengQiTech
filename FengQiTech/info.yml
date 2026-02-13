@@ -2,7 +2,7 @@ id: FengQi_Tech
 name: "风起科技"
 depends: []
 pluginDepends: []
-version: "FORMAL"
+version: "release-1.0.0"
 description: ""
 authors: ["lyen"]
 repo: ""

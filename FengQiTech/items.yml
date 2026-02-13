@@ -3,7 +3,7 @@ lyen:
   item_group: FQ_gx
   placeable: false
   item:
-    name: "&blyen"
+    name: "&#80ffffl&#92dbffy&#a4b7ffe&#b692ffn"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/1bf27f944aac9ea96d9feee47d9f293370f58e5f5342d0a801cbea3ec23c2b49
     lore:
@@ -39,7 +39,7 @@ FD: #风锭
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&b风&e锭"
+    name: "&#80ffff风&#9bc9ff锭"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/3c76df4c912d455db47d7628dd21de70d51c55edcafa36278ee8445f62db622f
   recipe_type: MAGIC_WORKBENCH
@@ -78,7 +78,7 @@ JQHX: #机器核心
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&b机器&6核心"
+    name: "&#80ffff机&#92dbff器&#a4b7ff核&#b692ff心"
     lore:
      - "&7机器组件"
     material: LIGHT_GRAY_STAINED_GLASS
@@ -117,8 +117,10 @@ CHJSD: #磁化金属锭
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&4磁化金属锭"
+    name: "&#80ffff磁&#8ee4ff化&#9bc9ff金&#a9adff属&#b692ff锭"
     material: NETHER_BRICK
+    lore:
+      - "&7被包裹着的磁铁"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -154,7 +156,7 @@ JXDLB: #机械电路版
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&e机械电路板"
+    name: "&#80ffff机&#8be9ff械&#96d3ff电&#a0beff路&#aba8ff板"
     lore:
      - "&7机器组件"
     material: GOLD_INGOT
@@ -193,7 +195,7 @@ JXDLJH: #机械电路集合
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&f机械电路集合"
+    name: "&#80ffff机&#8be9ff械&#96d3ff电&#a0beff路&#aba8ff集&#b692ff合"
     lore:
      - "&7机器组件"
     material: IRON_BLOCK
@@ -301,7 +303,7 @@ RZX: #人造线
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&8人造线"
+    name: "&#80ffff人&#9bc9ff造&#b692ff线"
     material: STRING
     lore:
      - "&7由木头制成"
@@ -368,17 +370,17 @@ RZX: #人造线
      - "&7&o4.优化 下界岩转换器 合成配方"
      - "&7&o5.更新 建材包I"
 
-ZCBI: #建材包I
+ZCB: #建材包
   lateInit: false
   item_group: FQ_cl
   placeable: true
   item:
-    name: "&8建材包I"
+    name: "&#80ffff建&#9bc9ff材&#b692ff包"
     material_type: saveditem
     material: ZCBI
     lore:
      - "&7方便建筑师"
-  
+
 20260124:
   lateInit: false
   item_group: FQ_sm
@@ -391,7 +393,7 @@ ZCBI: #建材包I
      - "&72026/01/24"
      - "&7&o1.更改 &2核电作物&7种植加速机 &7&o产物时间"
      - "&7&o2.优化 &6燧石&7一体机 &7&o合成配方"
-     - "&7&o3.将 &6全部头颅 &7改为 &6方块材质"
+     - "&7&o3.将 &6全部机器头颅 &7改为 &6方块材质"
 
 20260209:
   lateInit: false
@@ -406,35 +408,16 @@ ZCBI: #建材包I
      - "&7&o1.加入对应机器的lore(简介)"
      - "&7&o2.优化 &7下界岩转换仪 &7&o合成配方"
 
-M14: #M14
+20260213:
   lateInit: false
-  item_group: FQ_qx
-  placeable: true
-  item:
-    name: "&aM14"
-    material_type: saveditem
-    material: M14
-  
-M62: #M62
-  lateInit: false
-  item_group: FQ_dy
-  placeable: true
-  item:
-    name: "&e[7.62*51]M62"
-    material_type: saveditem
-    material: M62
-  
-QXZGZ: #枪械资格证
-  lateInit: true
-  item_group: FQ_cl
-  hidden: true
+  item_group: FQ_sm
   placeable: false
   item:
-    name: "&6枪械资格证"
-    material: PAPER
+    name: "&f说明"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
     lore:
-        - "&e获取枪械的前提"
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    5:
-      material: NETHER_STAR
+     - "&72026/02/13"
+     - "&7&o1.删除原有太阳能发电机"
+     - "&7&o2.新增 &6&l增强 &7&o物品组"
+     - "&7&o3.将部分名称更换为 &#80ffff渐&#9bc9ff变&#b692ff色"

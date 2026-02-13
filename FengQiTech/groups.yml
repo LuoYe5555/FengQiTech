@@ -1,29 +1,29 @@
 FQTECH:
   type: nested
   item:
-    name: "&ki&b风起&7科技&ki"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
-    
+    name: "&#80ffff风&#92dbff起&#a4b7ff科&#b692ff技"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
+
 FQ_gx:
   type: sub
   parent: "FQTECH"
   item:
-    name: "&9贡献"
+    name: "&#80ffff贡&#92dbff献"
     material: NETHER_STAR
 
 FQ_sm:
   type: sub
   parent: "FQTECH"
   item:
-    name: "&7更新说明"
+    name: "&#80ffff更&#92dbff新&#a4b7ff说&#b692ff明"
     material: PAPER
 
 FQ_cl:
   type: sub
   parent: "FQTECH"
   item:
-    name: "&b风起&7基础材料"
+    name: "&#80ffff基&#92dbff础&#a4b7ff材&#b692ff料"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/4e159dab94b55e61b86a3f6fe7f6a4c7d937fe5aa9731293e314747c8f51019d
 
@@ -31,22 +31,14 @@ FQ_wp:
   type: sub
   parent: "FQTECH"
   item:
-    name: "&e风起&7物品"
+    name: "&#80ffff物&#92dbff品"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/b9dce59ba72f84736e1ea9c3b43eb1aadc497b2904a1cda08972692dc1b4ca75
     
-FQ_qx:
+FQ_zq:
   type: sub
   parent: "FQTECH"
   item:
-    name: "&e风起&7枪械"
-    material_type: material
-    material: CROSSBOW
-
-FQ_dy:
-  type: sub
-  parent: "FQTECH"
-  item:
-    name: "&e风起&7弹药展示"
-    material_type: material
-    material: ARROW
+    name: "&#80ffff机&#92dbff器&#a4b7ff增&#b692ff强"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/37520da36c475d43660fdd6abbbdc1165f3be2d43a1cf6c42e541dc0e74a25bb
