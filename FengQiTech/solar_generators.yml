@@ -1,0 +1,144 @@
+JCTYNFDJ: #基础太阳能发电机
+  item_group: FQ_wp
+  item:
+    name: "&#80ffff基&#87f1ff础&#8ee4ff太&#94d6ff阳&#9bc9ff能&#a2bbff发&#a9adff电&#afa0ff机"
+    material: BLUE_GLAZED_TERRACOTTA
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &7900 J 可存储"
+     - "&8⇨ &e⚡ &732 J/s[day]"
+     - "&8⇨ &e⚡ &716 J/s[night]"
+  capacity: 900
+  dayEnergy: 16
+  nightEnergy: 8
+  lightLevel: 14
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_GFDCJH
+    2:
+      material_type: slimefun
+      material: FQ_GFDCJH
+    3:
+      material_type: slimefun
+      material: FQ_GFDCJH
+    4:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+    5:
+      material_type: slimefun
+      material: FQ_DDMDJH
+    6:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+    7:
+      material: IRON_INGOT
+    8:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+    9:
+      material: IRON_INGOT
+GJTYNFDJ: #高级太阳能发电机
+  item_group: FQ_wp
+  item:
+    name: "&#80ffff高&#87f1ff级&#8ee4ff太&#94d6ff阳&#9bc9ff能&#a2bbff发&#a9adff电&#afa0ff机"
+    material: RED_GLAZED_TERRACOTTA
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &715000 J 可存储"
+     - "&8⇨ &e⚡ &7320 J/s"
+  capacity: 15000
+  dayEnergy: 160
+  nightEnergy: 160
+  lightLevel: 14
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_JCTYNFDJ
+    2:
+      material_type: slimefun
+      material: FQ_JCTYNFDJ
+    3:
+      material_type: slimefun
+      material: FQ_JCTYNFDJ
+    4:
+      material_type: slimefun
+      material: FQ_CHJSD
+    5:
+      material_type: slimefun
+      material: SOLAR_GENERATOR_4
+    6:
+      material_type: slimefun
+      material: FQ_CHJSD
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLB
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+CJTYNFDJ: #超级太阳能发电机
+  item_group: FQ_wp
+  item:
+    name: "&#80ffff超&#87f1ff级&#8ee4ff太&#94d6ff阳&#9bc9ff能&#a2bbff发&#a9adff电&#afa0ff机"
+    material: YELLOW_GLAZED_TERRACOTTA
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &775000 J 可存储"
+     - "&8⇨ &e⚡ &71600 J/s"
+  capacity: 75000
+  dayEnergy: 800
+  nightEnergy: 800
+  lightLevel: 14
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_JXDLB
+    2:
+      material_type: slimefun
+      material: FQ_JXDLB
+    3:
+      material_type: slimefun
+      material: FQ_JXDLB
+    4:
+      material_type: slimefun
+      material: FQ_GJTYNFDJ
+    5:
+      material_type: slimefun
+      material: FQ_GJTYNFDJ
+    6:
+      material_type: slimefun
+      material: FQ_GJTYNFDJ
+    7:
+      material_type: slimefun
+      material: FQ_JXDLB
+    8:
+      material_type: slimefun
+      material: FQ_JXDLJH
+    9:
+      material_type: slimefun
+      material: FQ_JXDLB
+CJTYNFDJ_ZQ: #超级太阳能发电机_增强
+  item_group: FQ_zq
+  item:
+    name: "&6&l增强&7-&#80ffff超&#87f1ff级&#8ee4ff太&#94d6ff阳&#9bc9ff能&#a2bbff发&#a9adff电&#afa0ff机"
+    material: YELLOW_GLAZED_TERRACOTTA
+    lore:
+     - ""
+     - "&8⇨ &e⚡ &748000000 J 可存储"
+     - "&8⇨ &e⚡ &7102400 J/s"
+  capacity: 48000000
+  dayEnergy: 51200
+  nightEnergy: 51200
+  lightLevel: 14
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_CJTYNFDJ
+      amount: 64

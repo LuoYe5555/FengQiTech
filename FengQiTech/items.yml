@@ -314,6 +314,18 @@ RZX: #人造线
     5:
       material: STICK
 
+SM:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&#80ffff申&#9bc9ff明"
+    material: PAPER
+    lore:
+     - ""
+     - "&#80ffff部&#87f1ff分&#8ee4ff借&#94d6ff鉴&#9bc9ff了&#a2bbff其&#a9adff他&#afa0ff附&#b692ff属"
+     - "&#80ffff如&#92dbff有&#a4b6ff侵&#b692ff权"
+     - "&#80ffff请&#8ee4ff联&#9bc9ff系&#a9adff作&#b692ff者"
 20251130:
   lateInit: false
   item_group: FQ_sm
@@ -418,6 +430,6 @@ ZCB: #建材包
     material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
     lore:
      - "&72026/02/13"
-     - "&7&o1.删除原有太阳能发电机"
-     - "&7&o2.新增 &6&l增强 &7&o物品组"
+     - "&7&o1.优化原有太阳能发电机"
+     - "&7&o2.新增 &#80ffff机&#92dbff器&#a4b7ff增&#b692ff强 &7&o物品组"
      - "&7&o3.将部分名称更换为 &#80ffff渐&#9bc9ff变&#b692ff色"

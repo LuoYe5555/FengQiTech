@@ -150,7 +150,7 @@ ZFJI: #制粉机
           material_type: slimefun
           material: TIN_DUST
 
-ZFJII: #制粉机
+ZFJII: #制粉机II
   item_group: FQ_wp
   item:
     name: "&#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
@@ -1052,3 +1052,81 @@ JCKWZHY_ZQ: #基础矿物转换仪
           material_type: slimefun
           material: BUCKET_OF_OIL
 
+
+ZFJII_ZQ: #制粉机II_增强
+  item_group: FQ_zq
+  item:
+    name: "&6&l增强&7-&#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
+    material: WAXED_OXIDIZED_COPPER_BULB
+    lore:
+     - "&7将圆石转化为粉"
+     - "&7集磨石.淘金.筛矿于一体"
+     - ""
+     - "&8⇨ &e⚡ &78192 J 可存储"
+     - "&8⇨ &e⚡ &75376 J/s"
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: FQ_ZFJII
+      amount: 64
+  capacity: 8192
+  input:  [0,1,2,9,10,11,18,19,20]
+  output: [6,7,8,15,16,17,24,25,26]
+  energyPerCraft: 2688
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    1:
+      chooseOne: true
+      seconds: 0
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 64
+        2:
+          chance: 100
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 64
+        3:
+          chance: 100
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 64
+        4:
+          chance: 100
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 64
+        5:
+          chance: 100
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 64
+        6:
+          chance: 100
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 64
+        7:
+          chance: 100
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 64
+        8:
+          chance: 100
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 64
+        9:
+          chance: 100
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 64

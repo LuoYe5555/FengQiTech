@@ -355,4 +355,114 @@ FQ_JCKWZHY_ZQ:
     21-23:
      name: "&a"
      material: BLACK_STAINED_GLASS_PANE
-    
+
+FQ_ZFJII_ZQ:
+  title: "&6&l增强&7-&#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
+  slots:
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+FQ_HDZWZZJSJ_ZQ:
+  title: "&6&l增强&7-&2核电作物&7种植加速机"
+  slots:
+    0-2:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    3:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    4:
+     name: "&a"
+     material: TRIDENT
+     progressbar: true
+    5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    6-8:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    9:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    11:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    15:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    17:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    18:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    20:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    24:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    26:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    27:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    29:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    30-32:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    33:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    35:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    36:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    38:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    39-41:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    42:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    44:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
+    45-47:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    48-50:
+     name: "&a"
+     material: ORANGE_STAINED_GLASS_PANE
+    51-53:
+     name: "&a"
+     material: LIGHT_BLUE_STAINED_GLASS_PANE
