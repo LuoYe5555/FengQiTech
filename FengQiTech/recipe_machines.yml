@@ -1,14 +1,14 @@
 GZHY: #硅转换仪
-  item_group: FQ_wp
+  item_group: FQ_ytj
   item:
-    name: "&6硅&7转换仪"
+    name: "&6硅&#80ffff转&#9bc8ff换&#b692ff仪"
     material: BEEHIVE
     lore:
-     - "&7将灵魂沙直接转换为&6硅"
-     - "&7省去淘金.合成.冶炼的步骤"
+     - "&#80ffff将&#87f1ff灵&#8ee4ff魂&#94d6ff沙&#9bc8ff直&#a2bbff接&#a8adff转&#afa0ff换&#b692ff为&6硅"
+     - "&#80ffff省&#84f6ff去&#89edff淘&#8ee4ff金&#92dbff.&#96d2ff合&#9bc8ff成&#a0bfff.&#a4b6ff冶&#a8adff炼&#ada4ff的&#b29bff步&#b692ff骤"
      - ""
-     - "&8⇨ &e⚡ &7128 J 可存储"
-     - "&8⇨ &e⚡ &772 J/s"
+     - "&#80ffff⇨ &#87f1ff⚡ &#8ee4ff1&#94d6ff2&#9bc8ff8 &#a2bbffJ &#a8adff可&#afa0ff存&#b692ff储"  
+     - "&#80ffff⇨ &#89edff⚡ &#92dbff7&#9bc8ff2 &#a4b6ffJ&#ada4ff/&#b692ffS"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -59,7 +59,7 @@ GZHY: #硅转换仪
           amount: 1
 
 ZFJI: #制粉机
-  item_group: FQ_wp
+  item_group: FQ_ptjq
   item:
     name: "&#80ffff制&#8be9ff粉&#96d3ff机&#a0beff(&#aba8ffI&#b692ff)"
     material: WAXED_OXIDIZED_COPPER_BULB
@@ -151,7 +151,7 @@ ZFJI: #制粉机
           material: TIN_DUST
 
 ZFJII: #制粉机II
-  item_group: FQ_wp
+  item_group: FQ_ptjq
   item:
     name: "&#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
     material: WAXED_OXIDIZED_COPPER_BULB
@@ -243,9 +243,9 @@ ZFJII: #制粉机II
           material: TIN_DUST
           
 TKYTJ: #碳块一体机
-  item_group: FQ_wp
+  item_group: FQ_ytj
   item:
-    name: "&4碳块&7一体机"
+    name: "&4碳块&#80ffff一&#9bc8ff体&#b692ff机"
     material: DIAMOND_BLOCK
     lore:
      - ""
@@ -304,9 +304,9 @@ TKYTJ: #碳块一体机
           material: CARBON_CHUNK
           amount: 1
 SKYTJ: #石块一体机
-  item_group: FQ_wp
+  item_group: FQ_ytj
   item:
-    name: "&6石块&7一体机"
+    name: "&6石块&#80ffff一&#9bc8ff体&#b692ff机"
     material: GRAVEL
     lore:
      - "&7泥土不够了.喵?"
@@ -364,9 +364,9 @@ SKYTJ: #石块一体机
           amount: 1
 
 XJYZHYI: #下界岩转换仪I
-  item_group: FQ_wp
+  item_group: FQ_ytj
   item:
-    name: "&f下界岩&7转换仪I"
+    name: "&f下界岩&#80ffff转&#9bc8ff换&#b692ff仪"
     material: NETHERRACK
     lore:
      - "&7自动将石头转换为下界岩"
@@ -423,7 +423,7 @@ XJYZHYI: #下界岩转换仪I
           amount: 1
 
 JCKWZHY: #基础矿物转换仪
-  item_group: FQ_wp
+  item_group: FQ_ptjq
   item:
     name: "&#80ffff基&#89edff础&#92dbff矿&#9bc9ff物&#a4b6ff转&#ada4ff换&#b692ff仪"
     material: GILDED_BLACKSTONE
@@ -534,9 +534,9 @@ JCKWZHY: #基础矿物转换仪
           material_type: slimefun
           material: BUCKET_OF_OIL
 SSYTJ: #燧石一体机
-  item_group: FQ_wp
+  item_group: FQ_ytj
   item:
-    name: "&6燧石&7一体机"
+    name: "&6燧石&#80ffff一&#9bc8ff体&#b692ff机"
     material: GRAVEL
     lore:
      - "&7固定洗矿产出"
@@ -584,7 +584,7 @@ SSYTJ: #燧石一体机
           amount: 1
           
 DXZFJ: #定向制粉机
-  item_group: FQ_wp
+  item_group: FQ_ptjq
   item:
     name: "&#80ffff定&#8ee4ff向&#9bc9ff制&#a9adff粉&#b692ff机"
     material: WAXED_OXIDIZED_COPPER_BULB
@@ -784,10 +784,10 @@ DXZFJ: #定向制粉机
           material: LEAD_DUST
           amount: 16
           
-DXZFJ_ZQ: #定向制粉机_增强
-  item_group: FQ_zq
+DXZFJ_YS: #定向制粉机_压缩
+  item_group: FQ_ys
   item:
-    name: "&6&l增强&7-&#80ffff定&#8ee4ff向&#9bc9ff制&#a9adff粉&#b692ff机"
+    name: "&e压缩 &7· &#80ffff定&#8ee4ff向&#9bc9ff制&#a9adff粉&#b692ff机"
     material: WAXED_OXIDIZED_COPPER_BULB
     lore:
      - "&7在催化剂的作用下驱动"
@@ -961,10 +961,10 @@ DXZFJ_ZQ: #定向制粉机_增强
           material_type: slimefun
           material: LEAD_DUST
           amount: 64
-JCKWZHY_ZQ: #基础矿物转换仪
-  item_group: FQ_zq
+JCKWZHY_YS: #基础矿物转换仪_压缩
+  item_group: FQ_ys
   item:
-    name: "&6&l增强&7-&#80ffff基&#89edff础&#92dbff矿&#9bc9ff物&#a4b6ff转&#ada4ff换&#b692ff仪"
+    name: "&e压缩 &7· &#80ffff基&#89edff础&#92dbff矿&#9bc9ff物&#a4b6ff转&#ada4ff换&#b692ff仪"
     material: GILDED_BLACKSTONE
     lore:
      - ""
@@ -1053,10 +1053,10 @@ JCKWZHY_ZQ: #基础矿物转换仪
           material: BUCKET_OF_OIL
 
 
-ZFJII_ZQ: #制粉机II_增强
-  item_group: FQ_zq
+ZFJII_YS: #制粉机II_压缩
+  item_group: FQ_ys
   item:
-    name: "&6&l增强&7-&#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
+    name: "&e压缩 &7· &#80ffff制&#89edff粉&#92dbff机&#9bc9ff(&#a4b6ffI&#ada4ffI&#b692ff)"
     material: WAXED_OXIDIZED_COPPER_BULB
     lore:
      - "&7将圆石转化为粉"

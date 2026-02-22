@@ -1,25 +1,27 @@
-FQTECH:
+FQTECH: #主类
   type: nested
   item:
-    name: "&#80ffff风&#92dbff起&#a4b7ff科&#b692ff技"
+    name: "&#80ffff风&#82d5f2起&#85aae6科&#8780d9技"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
-
-FQ_gx:
-  type: sub
-  parent: "FQTECH"
-  item:
-    name: "&#80ffff贡&#92dbff献"
-    material: NETHER_STAR
-
-FQ_sm:
+  
+FQ_sm: #说明
   type: sub
   parent: "FQTECH"
   item:
     name: "&#80ffff更&#92dbff新&#a4b7ff说&#b692ff明"
-    material: PAPER
+    material_type: skull_hash
+    material: 20b13024045c5c0d6d2afb059ae9660f7ad020fd895bb75f64fcc02ddb07d327
 
-FQ_cl:
+FQ_1: #占位
+  lateInit: false
+  type: button
+  item:
+    material: PINK_STAINED_GLASS_PANE
+    name: ' '
+  parent: FQTECH
+
+FQ_cl: #基础材料 
   type: sub
   parent: "FQTECH"
   item:
@@ -27,18 +29,80 @@ FQ_cl:
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/4e159dab94b55e61b86a3f6fe7f6a4c7d937fe5aa9731293e314747c8f51019d
 
-FQ_wp:
+FQ_geo: #geo材料 
   type: sub
   parent: "FQTECH"
   item:
-    name: "&#80ffff物&#92dbff品"
+    name: "&#80FFFFG&#8EE4FFE&#9BC9FFO&#A9ADFF材&#B692FF料"
+    material: SOUL_LANTERN
+
+FQ_ptjq: #普通配方机器
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80ffff普&#92dbff通&#a4b6ff机&#b692ff器"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/7a9a0239213ffdcf2c9034fb3b69d1b808503cd399cb6a8f7d3ec1949ad041f7
+
+FQ_ytj: #一体机
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80ffff一&#9bc9ff体&#b692ff机"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/b9dce59ba72f84736e1ea9c3b43eb1aadc497b2904a1cda08972692dc1b4ca75
     
-FQ_zq:
+FQ_tynfdj: #太阳能发电机
   type: sub
   parent: "FQTECH"
   item:
-    name: "&#80ffff机&#92dbff器&#a4b7ff增&#b692ff强"
+    name: "&#94D6FF太&#9BC9FF阳&#A2BBFF能&#A9ADFF发&#AFA0FF电&#B692FF机"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/a38ea8f4c9fbcf10edb73679c043a13d9b1c85d0f8ecdbe20fa4ca0795dfadf9
+
+FQ_2:
+  lateInit: false
+  type: button
+  item:
+    material: PINK_STAINED_GLASS_PANE
+    name: ' '
+  parent: FQTECH
+
+FQ_lmj: #留名集
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80FFFF留&#9BC9FF名&#B692FF集"
+    material: PALE_OAK_HANGING_SIGN
+
+FQ_gx: #贡献
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80ffff贡&#92dbff献"
+    material: NETHER_STAR
+
+FQ_3:
+  lateInit: false
+  type: button
+  item:
+    material: PURPLE_STAINED_GLASS_PANE
+    name: ' '
+  parent: FQTECH
+
+
+FQ_pffdj: #配方发电机
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#97D0FF配&#9FC1FF方&#A7B1FF发&#AEA2FF电&#B692FF机"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/c482d1ba4bdac990f6ea987703587fd79fe55555363251984679d4f279cc0c2a
+
+FQ_ys: #压缩机器
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80FFFF压&#92DBFF缩&#A4B6FF机&#B692FF器"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/37520da36c475d43660fdd6abbbdc1165f3be2d43a1cf6c42e541dc0e74a25bb

@@ -9,6 +9,17 @@ lyen:
     lore:
      - "&7&o作者"
      - ""
+lengshang:
+  lateInit: false
+  item_group: FQ_gx
+  placeable: false
+  item:
+    name: "&#A987EFl&#AD8BECe&#B28FE9n&#B693E5g&#BA98E2s&#BE9CDFh&#C3A0DCa&#C7A4D8n&#CBA8D5g"
+    material_type: skull_hash
+    material: 20b13024045c5c0d6d2afb059ae9660f7ad020fd895bb75f64fcc02ddb07d327
+    lore:
+     - "&#A987EF&o虽&#B08EEA&o未&#B794E5&o直&#BD9BDF&o接&#C4A1DA&o参&#CBA8D5&o与"
+     - "&#A987EF&o但&#AD8BEC&o也&#B28FE9&o指&#B693E5&o导&#BA98E2&o了&#BE9CDF&o部&#C3A0DC&o分&#C7A4D8&o编&#CBA8D5&o写"
 
 Dying:
   lateInit: false
@@ -21,7 +32,7 @@ Dying:
     lore:
      - "&7&o审核员"
      - ""
-     
+
 XF:
   lateInit: false
   item_group: FQ_gx
@@ -332,8 +343,7 @@ SM:
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72025/11/30"
      - "&7&o1.更新下界岩转换器"
@@ -345,8 +355,7 @@ SM:
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72025/12/20"
      - "&7&o1.更新定向制粉机"
@@ -358,8 +367,7 @@ SM:
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/02"
      - "&7&o祝各位2026新年快乐!"
@@ -372,8 +380,7 @@ SM:
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/03"
      - "&7&o1.更改 &2核电作物&7种植加速机 &7&o错误介绍"
@@ -399,8 +406,7 @@ ZCB: #建材包
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/24"
      - "&7&o1.更改 &2核电作物&7种植加速机 &7&o产物时间"
@@ -413,8 +419,7 @@ ZCB: #建材包
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/02/09"
      - "&7&o1.加入对应机器的lore(简介)"
@@ -426,10 +431,69 @@ ZCB: #建材包
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/02/13"
      - "&7&o1.优化原有太阳能发电机"
      - "&7&o2.新增 &#80ffff机&#92dbff器&#a4b7ff增&#b692ff强 &7&o物品组"
      - "&7&o3.将部分名称更换为 &#80ffff渐&#9bc9ff变&#b692ff色"
+20260214:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/13"
+     - "&7&o1.更改 &b&l黑金刚石&7发电机 &7&o错误电容量"
+1: #占位
+  lateInit: false
+  item_group: FQ_1
+  placeable: false
+  item:
+    name: "1"
+    material: PAPER
+2: #占位
+  lateInit: false
+  item_group: FQ_2
+  placeable: false
+  item:
+    name: "2"
+    material: PAPER
+3: #占位
+  lateInit: false
+  item_group: FQ_3
+  placeable: false
+  item:
+    name: "1"
+    material: PAPER
+
+LM_SM: #留名_说明
+  lateInit: false
+  item_group: FQ_lmj
+  placeable: false
+  item:
+    name: '&c留名集特别说明'
+    lore: 
+    - '&6想登上留名集的可以Q我'
+    - '&6留名没有任何要求，想上就给上'
+    - '&6欢迎各位来留下属于自己的名字'
+    - '&6有正版皮肤的可以制作自己的头颅哦'
+    - '&6没有正版号也没关系，可以选择原版物品'
+    - "&#80FFFF&o(&#84F7FF&o文&#88EFFF&o案&#8CE8FF&oc&#8FE0FF&oo&#93D8FF&op&#97D0FF&oy&#9BC9FF&o自&#9FC1FF&o-&#A3B9FF&o &#A7B1FF&o冷&#AAA9FF&o殇&#AEA2FF&o科&#B29AFF&o技&#B692FF&o)"
+    material: PALE_OAK_HANGING_SIGN
+20260222:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/22"
+     - "&#80FFFF&o大&#9BC9FF&o更&#B692FF&o新"
+     - ""
+     - "&7&o1.更改 &#80FFFF&o风&#92DBFF&o起&#A4B6FF&o科&#B692FF&o技 &7&o粘液书界面"
+     - "&7&o2.增加 &#80FFFF留&#9BC9FF名&#B692FF集"
+     - "&7&o3.将 物品组 细分开"

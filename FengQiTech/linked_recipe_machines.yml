@@ -1,5 +1,5 @@
 HDZWZZJSJ: #核电作物种植加速机
-  item_group: FQ_wp
+  item_group: FQ_ptjq
   item:
     name: "&2核电作物&7种植加速机"
     material_type: mc
@@ -688,10 +688,10 @@ HDZWZZJSJ: #核电作物种植加速机
           material: PLUTONIUM
           amount: 1
           slot: 13
-HDZWZZJSJ_ZQ: #核电作物种植加速机增强
-  item_group: FQ_zq
+HDZWZZJSJ_YS: #核电作物种植加速机压缩
+  item_group: FQ_ys
   item:
-    name: "&6&l增强&7-&2核电作物&7种植加速机"
+    name: "&e压缩 &7· &2核电作物&7种植加速机"
     material_type: mc
     material: FLETCHING_TABLE
     lore:
