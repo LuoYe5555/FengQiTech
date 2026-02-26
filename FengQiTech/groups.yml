@@ -106,3 +106,11 @@ FQ_ys: #压缩机器
     name: "&#80FFFF压&#92DBFF缩&#A4B6FF机&#B692FF器"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/37520da36c475d43660fdd6abbbdc1165f3be2d43a1cf6c42e541dc0e74a25bb
+    
+FQ_ts: #特殊机器
+  type: sub
+  parent: "FQTECH"
+  item:
+    name: "&#80FFFF特&#92DBFF殊&#A4B6FF机&#B692FF器"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/2e07c19bbb34e0b1f2c94658ca478673e4c0c75364f351516e3f7ad2f5493752

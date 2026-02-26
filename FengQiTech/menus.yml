@@ -1,4 +1,4 @@
-FQ_GZHY:
+FQ_GZHY: #硅转换仪
   title: "&6硅&7转换仪"
   slots:
     0-10:
@@ -466,3 +466,35 @@ FQ_HDZWZZJSJ_YS:
     51-53:
      name: "&a"
      material: LIGHT_BLUE_STAINED_GLASS_PANE
+FQ_CJT:
+  title: "&#FCD05C风&#E8D45E起&#D4D760拆&#C0DB61解&#ACDE63台"
+  slots:
+    0-2:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    9:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    11:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    3-5:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    12:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    13:
+     name: "&a"
+     material: FLINT_AND_STEEL
+     progressbar: true
+    14:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    18-20:
+     name: "&a"
+     material: LIME_STAINED_GLASS_PANE
+    21-23:
+     name: "&a"
+     material: BLACK_STAINED_GLASS_PANE
+    

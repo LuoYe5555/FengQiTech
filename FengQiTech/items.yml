@@ -92,7 +92,9 @@ JQHX: #机器核心
     name: "&#80ffff机&#92dbff器&#a4b7ff核&#b692ff心"
     lore:
      - "&7机器组件"
-    material: LIGHT_GRAY_STAINED_GLASS
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/ca28bf877446fb0f0f762f8fef9c2c1ae32c8c28bbf2ca9832888bc9e05612e7
+    amount: 4
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -122,7 +124,7 @@ JQHX: #机器核心
     9:
       material_type: slimefun
       material: HARDENED_GLASS
-      
+
 CHJSD: #磁化金属锭
   lateInit: false
   item_group: FQ_cl
@@ -497,3 +499,45 @@ LM_SM: #留名_说明
      - "&7&o1.更改 &#80FFFF&o风&#92DBFF&o起&#A4B6FF&o科&#B692FF&o技 &7&o粘液书界面"
      - "&7&o2.增加 &#80FFFF留&#9BC9FF名&#B692FF集"
      - "&7&o3.将 物品组 细分开"
+     
+YSMB: #压缩木板
+  lateInit: false
+  item_group: FQ_cl
+  placeable: false
+  item:
+    name: "&#80FFFF压&#92DBFF缩&#A4B6FF木&#B692FF板"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/24acc0078201335366085a3a0f3c8d4fcf117ca82f1e21ceb942ca295411a5ab
+    lore:
+     - "&#FCD05C由&#F2D25D九&#E8D45E个&#DED55F木&#D4D760板&#CAD960压&#C0DB61缩&#B6DC62而&#ACDE63成"
+     - "&#FCD05C更&#F1D25D加&#E5D45E.&#DAD65F.&#CED860.&#C3DA61厚&#B7DC62实&#ACDE63?"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: OAK_PLANKS
+    2:
+      material: OAK_PLANKS
+    3:
+      material: OAK_PLANKS
+    4:
+      material: OAK_PLANKS
+    5:
+      material: OAK_PLANKS
+    6:
+      material: OAK_PLANKS
+    7:
+      material: OAK_PLANKS
+    8:
+      material: OAK_PLANKS
+    9:
+      material: OAK_PLANKS
+20260226:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/26"
+     - "&7&o1.增加 &#FCD05C风&#E8D45E起&#D4D760拆&#C0DB61解&#ACDE63台[缓慢更新中]"
