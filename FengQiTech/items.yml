@@ -14,12 +14,11 @@ lengshang:
   item_group: FQ_gx
   placeable: false
   item:
-    name: "&#A987EFl&#AD8BECe&#B28FE9n&#B693E5g&#BA98E2s&#BE9CDFh&#C3A0DCa&#C7A4D8n&#CBA8D5g"
+    name: "&#FCD05Cl&#F2D25De&#E8D45En&#DED55Fg&#D4D760s&#CAD960h&#C0DB61a&#B6DC62n&#ACDE63g"
     material_type: skull_hash
     material: 20b13024045c5c0d6d2afb059ae9660f7ad020fd895bb75f64fcc02ddb07d327
     lore:
-     - "&#A987EF&o虽&#B08EEA&o未&#B794E5&o直&#BD9BDF&o接&#C4A1DA&o参&#CBA8D5&o与"
-     - "&#A987EF&o但&#AD8BEC&o也&#B28FE9&o指&#B693E5&o导&#BA98E2&o了&#BE9CDF&o部&#C3A0DC&o分&#C7A4D8&o编&#CBA8D5&o写"
+     - "&#B28FE9指&#B693E5导&#BA98E2了&#BE9CDF部&#C3A0DC分&#C7A4D8编&#CBA8D5写"
 
 Dying:
   lateInit: false
@@ -541,3 +540,79 @@ YSMB: #压缩木板
     lore:
      - "&72026/02/26"
      - "&7&o1.增加 &#FCD05C风&#E8D45E起&#D4D760拆&#C0DB61解&#ACDE63台[缓慢更新中]"
+     
+20260301:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/03/01"
+     - "&7&o1.加入了自动更新,好耶!"
+     
+CJQ:
+  item_group: FQ_gnwp
+  item:
+    name: "&#DAD65F物&#CED860品&#C3DA61拆&#B7DC62解&#ACDE63器"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/e28bc2df3dff5ec3d143a2ceecb9382183516e9fadd7e409a5eb41551574a25f
+    lore: 
+      - "&#80FFFF一&#89EDFF次&#92DBFF性&#9BC9FF的&#A4B6FF拆&#ADA4FF解&#B692FF台"
+      - " "
+      - "&#80FFFF右&#8EE4FF键&#9BC9FF以&#A9ADFF使&#B692FF用"
+  script: CJQ
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SYNTHETIC_SAPPHIRE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SYNTHETIC_SAPPHIRE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGICAL_BOOK_COVER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SYNTHETIC_SAPPHIRE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SYNTHETIC_SAPPHIRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 1
+      
+RE_CH:
+  item_group: FQ_1
+  item:
+    name: "&bREPLICA'CHICKEN"
+    material: BLAZE_ROD
+    lore: 
+      - "&eNOTING STANGE"
+      - "&eBUT COPY"
+      - ""
+      - "&6落叶出品 必属精品"
+  placeable: false
+  lateInit: false
+  script: RC
+  hidden: true

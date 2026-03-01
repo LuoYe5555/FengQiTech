@@ -1138,7 +1138,7 @@ CJT: #拆解台
     material: http://textures.minecraft.net/texture/2e07c19bbb34e0b1f2c94658ca478673e4c0c75364f351516e3f7ad2f5493752
     lore:
      - "&#FCD05C便&#F2D25D宜&#E8D45E.&#DED55F好&#D4D760用&#CAD960.&#C0DB61速&#B6DC62度&#ACDE63快"
-     - "&#FCD05CT&#F7D15Ci&#F1D25Dp&#ECD35D:&#E7D45E仅&#E1D55E支&#DCD65F持&#D7D75F粘&#D1D760液&#CCD860本&#C7D961体&#C1DA61和&#BCDB62风&#B7DC62起&#B1DD63附&#ACDE63属"
+     - ""
      - "&#FCD05C(&#F8D15C目&#F4D15D前&#F0D25D仅&#ECD35D支&#E8D45E持&#E4D45E部&#E0D55E分&#DCD65F粘&#D8D65F液&#D4D760本&#D0D860体&#CCD860矿&#C8D961物&#C4DA61.&#C0DB61请&#BCDB62等&#B8DC62待&#B4DD62更&#B0DD63新&#ACDE63)"
      - ""
      - "&#FCD05C⇨ &#E8D45E⚡ &#D4D7602 &#C0DB61J&#B6DC62/&#ACDE63s"
@@ -1531,4 +1531,18 @@ CJT: #拆解台
           chance: 100
           material_type: slimefun
           material: HARDENED_METAL_INGOT
+          amount: 1
+    RC: #rc
+      hide: true
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: FQ_CJT
+          amount: 1
+      output:
+        1:
+          chance: 100
+          material_type: slimefun
+          material: FQ_RE_CHICKEN
           amount: 1

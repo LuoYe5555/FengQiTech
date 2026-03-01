@@ -51,7 +51,7 @@ HDZWZZJSJ: #核电作物种植加速机
     1:
       seconds: 1200
       input:
-        1:
+        '1':
           material_type: slimefun
           material: URANIUM
           amount: 1
@@ -107,7 +107,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: NEPTUNIUM
           amount: 1
-          slot: 34
+          slot: 13
     4:
       seconds: 1200
       input:
@@ -187,7 +187,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: NEPTUNIUM
           amount: 1
-          slot: 34
+          slot: 13
     8:
       seconds: 1200
       input:
@@ -267,7 +267,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: NEPTUNIUM
           amount: 1
-          slot: 34
+          slot: 13
     12:
       seconds: 1200
       input:
@@ -347,7 +347,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: NEPTUNIUM
           amount: 1
-          slot: 34
+          slot: 13
     16:
       seconds: 1200
       input:
@@ -427,7 +427,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: PLUTONIUM
           amount: 1
-          slot: 34
+          slot: 13
     20:
       seconds: 600
       input:
@@ -507,7 +507,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: PLUTONIUM
           amount: 1
-          slot: 34
+          slot: 13
     24:
       seconds: 600
       input:
@@ -587,7 +587,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: PLUTONIUM
           amount: 1
-          slot: 34
+          slot: 13
     28:
       seconds: 600
       input:
@@ -667,7 +667,7 @@ HDZWZZJSJ: #核电作物种植加速机
           material_type: slimefun
           material: PLUTONIUM
           amount: 1
-          slot: 34
+          slot: 13
     32:
       seconds: 600
       input:
