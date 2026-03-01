@@ -1,0 +1,19 @@
+TJRL:
+  item_group: FQ_geo
+  item:
+    name: "&d桃酱茸铃"
+    lore:
+      - "&#A987EF是&#AB83EE一&#AD80ED个&#AF7CEC从&#B079EB甜&#B275EA梦&#B471E9星&#B66EE7云&#B86AE6飘&#BA66E5落&#BB63E4的&#BD5FE3小&#BF5CE2精&#C158E1灵"
+      - "&#A987EF毛&#AA85EE茸&#AB83EE茸&#AC81ED的&#AD7FED桃&#AE7EEC粉&#AF7CEC斗&#B07AEB篷&#B178EB里&#B276EA藏&#B374E9着&#B472E9会&#B570E8响&#B56FE8的&#B66DE7铃&#B76BE7铛&#B869E6和&#B967E5一&#BA65E5团&#BB63E4永&#BC61E4不&#BD60E3融&#BE5EE3化&#BF5CE2的&#C05AE2果&#C158E1酱"
+      - "&#A987EF每&#AC81ED当&#AF7BEC它&#B275EA开&#B570E8心&#B86AE6地&#BB64E5晃&#BE5EE3一&#C158E1晃"
+      - "&#A987EF就&#AA84EE会&#AC82ED“&#AD7FED叮&#AE7DEC咚&#B07AEB”&#B177EA一&#B275EA声&#B472E9洒&#B570E8下&#B66DE7星&#B86AE6星&#B968E6点&#BA65E5点&#BC62E4的&#BD60E3蜜&#BE5DE3桃&#C05BE2香&#C158E1气"
+    material_type: skull_hash
+    material: http://textures.minecraft.net/texture/fadbbab3881aacba577e27bbee1fbe4b9a50e19f5a87f8d49b636054fa1788fc
+  recipe_type: GEO_MINER
+  max_deviation: 1
+  obtain_from_geo_miner: true
+  geo_name: '&d桃酱茸铃'
+  supply:
+    normal: 30
+    nether: 30
+    the_end: 30
