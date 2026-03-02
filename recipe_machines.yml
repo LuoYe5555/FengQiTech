@@ -1532,17 +1532,3 @@ CJT: #拆解台
           material_type: slimefun
           material: HARDENED_METAL_INGOT
           amount: 1
-    RC: #rc
-      hide: true
-      seconds: 0
-      input:
-        1:
-          material_type: slimefun
-          material: FQ_CJT
-          amount: 1
-      output:
-        1:
-          chance: 100
-          material_type: slimefun
-          material: FQ_RE_CH
-          amount: 1
