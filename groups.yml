@@ -119,6 +119,6 @@ FQ_gnwp: #功能物品
   type: sub
   parent: "FQTECH"
   item:
-    name: "&#80FFFF功&#92DBFF能&#A4B6FF机&#B692FF器"
+    name: "&#80FFFF功&#92DBFF能&#A4B6FF物&#B692FF品"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/2e07c19bbb34e0b1f2c94658ca478673e4c0c75364f351516e3f7ad2f5493752

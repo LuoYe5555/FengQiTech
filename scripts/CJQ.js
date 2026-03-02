@@ -123,47 +123,6 @@ function getSlimefunItemInfo(item) {
     }
 }
 
-/* ===== 判断是否是工作台配方 =====
- * 参数：info - getSlimefunItemInfo返回的信息对象
- * 返回：true表示是工作台合成配方，可以拆解；false表示不是
- */
-function isCraftingRecipe(info) {
-    // 如果没有配方类型信息，但有配方数组，默认允许拆解
-    if (!info || !info.recipeTypeKey) {
-        return info && info.recipe && isValidRecipeArray(info.recipe);
-    }
-
-    // 将配方类型转为大写，方便比较
-    const key = info.recipeTypeKey.toUpperCase();
-
-    // 定义允许拆解的配方类型列表（都是工作台或类似工作台的合成）
-    const craftingTypes = [
-        'SHAPED_RECIPE',           // 有序配方
-        'SHAPELESS_RECIPE',        // 无序配方
-        'ENHANCED_CRAFTING_TABLE', // 增强工作台
-        'MAGIC_WORKBENCH',         // 魔法工作台
-        'ARMOR_FORGE',             // 盔甲锻造台
-        'GRIND_STONE',             // 磨石
-        'ORE_CRUSHER',             // 矿石粉碎机
-        'COMPRESSOR',              // 压缩机
-        'PRESSURE_CHAMBER',        // 压力机
-        'SMELTERY',                // 冶炼炉
-        'AUTOMATED_PANNING_MACHINE', // 自动淘金机
-        'ANCIENT_ALTAR',           // 古代祭坛
-        'NUCLEAR_REACTOR',         // 核反应堆
-        'JUICER'                   // 榨汁机
-    ];
-
-    // 检查配方类型是否在允许列表中
-    for (let i = 0; i < craftingTypes.length; i++) {
-        if (key.includes(craftingTypes[i])) {
-            return true;
-        }
-    }
-
-    return false;
-}
-
 /* ===== 检查是否是有效的配方数组 =====
  * 参数：recipe - 配方对象（可能是JS数组或Java数组）
  * 返回：true表示是有效的配方数组
@@ -466,15 +425,8 @@ function onUse(evt) {
         return;
     }
 
-    // 检查是否是允许拆解的工作台配方
-    if (!isCraftingRecipe(info)) {
-        player.sendMessage('§c✖ §7该物品不是工作台合成物品，无法拆解！');
-        player.sendMessage('§7只有合成台配方的物品才能拆解');
-        try {
-            player.playSound(player.getLocation(), 'block.note_block.bass', 1.0, 0.5);
-        } catch (e) { }
-        return;
-    }
+    // --- 功能修改：移除原有的 isCraftingRecipe 检查 ---
+    // 不再限制配方类型，任何有配方的物品都可以拆解
 
     // 从配方中提取材料
     const materials = extractMaterials(info.recipe);

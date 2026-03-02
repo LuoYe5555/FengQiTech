@@ -1469,7 +1469,7 @@ CJT: #拆解台
         1:
           chance: 100
           material_type: slimefun
-          material: SOLDER_INGOT
+          material: LEAD_DUST
           amount: 1
         2:
           chance: 100

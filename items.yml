@@ -605,14 +605,24 @@ CJQ:
 RE_CH:
   item_group: FQ_1
   item:
-    name: "&bREPLICA'CHICKEN"
+    name: "&#FCD05C&lR&#F6D15D&lE&#F1D25D&lP&#EBD35E&lL&#E5D45E&lI&#DFD55F&lC&#DAD65F&lA&#D4D760&l'&#CED860&lC&#C9D961&lH&#C3DA61&lI&#BDDB62&lC&#B7DC62&lK&#B2DD63&lE&#ACDE63&lN"
     material: BLAZE_ROD
     lore: 
-      - "&eNOTING STANGE"
-      - "&eBUT COPY"
-      - ""
-      - "&6落叶出品 必属精品"
+      - "&e&#80FFFFN&#84F7FFO&#88EFFFT&#8CE8FFH&#8FE0FFI&#93D8FFN&#97D0FFG&#9BC9FF'&#9FC1FFS&#A3B9FFT&#A7B1FFR&#AAA9FFA&#AEA2FFN&#B29AFFG&#B692FFE"
   placeable: false
   lateInit: false
   script: RC
   hidden: true
+
+20260301:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/03/02"
+     - "&7&o1.修改了 &#D4D760拆&#C0DB61解&#ACDE63台 &7&o错误配方输出"
+     - "&7&o2.增加 &#DAD65F物&#CED860品&#C3DA61拆&#B7DC62解&#ACDE63器 适配性 &7&o现在可以拆万物啦"
+     - "&7&o2.修改了错误的物品组名称"
